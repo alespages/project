@@ -1,0 +1,112 @@
+.frs-img-container {
+      background-image: url(../images/museum.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      opacity: 0.8;
+      
+}
+
+.in-cont {
+      text-align: center;    
+      width: 100%;
+      color: #000;
+      height: auto;
+      margin-top: 00px;
+}
+
+.in-cont h1 {
+      font-size: 60px;
+      height: 600px;
+      text-align: right;
+      padding: 40px 120px;
+      color: #0000FF;
+      
+}
+
+.in-cont a {
+      margin-top:20px;
+      margin-bottom: 20px;
+      font-size: 20px;
+     
+      
+}
+
+.btn {
+      display:inline-block;
+      width: 400px;
+      font-weight: bold;
+      padding: 10px;
+      color: #0000FF;
+      background: #fff;
+      border: 4px solid #fff;
+      border-radius: 8px;
+      text-align: center;
+      outline: none;
+      text-decoration: none;
+      transition: background color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.btn:hover, .btn:active {
+    background-color: #9ACD32;
+      text-decoration: none;
+      color: #0000FF;
+      transition: background color 0.3s ease-in, color 0.3s ease-in;
+}
+
+@media only screen and (max-width: 920px){
+      .in-cont{
+            margin-top: 100px;
+            
+      }
+}
+
+@media only screen and (max-width: 540px){
+      .in-cont{
+            margin-top: 150px;
+            
+      }
+      h1{
+            font-size: 5px;
+      }
+      h2{
+            font-size: 1.5px;
+      }
+}
+.cont-vis {
+      text-align: left;
+      padding-bottom: 60px;
+      margin-left: 150px;
+      max-width: 1000px;
+      line-height: 50px;
+            
+}
+
+.cont-vis h3 {
+      padding: 50px 0;
+      font-size: 30px;
+      color: #0000FF;
+      
+}
+
+.tbl1 {
+      border-collapse: collapse;
+      width: 100%;
+      border: none;
+      text-align: left;
+      
+    
+}
+}
+.tbl1 td {
+      border-spacing: 30px;   
+}
+
+
+.info-vis {
+      display: flex;
+}
+
+
+

@@ -1,0 +1,16 @@
+.main .sub h1 {
+      color: #0000FF;
+      padding-left: 0;
+      padding-bottom: 50px; 
+      text-align: center;
+}
+
+.main .sub p {
+      line-height: 50px;
+      padding-bottom: 150px;
+}
+
+.main .sub em {
+      color: #9ACD32;
+}
+
